@@ -1,9 +1,12 @@
 syntax enable
 set background=light
 let g:solarized_termcolors=256
+let g:rspec_command = '!bundle exec bin/rspec {spec}'
 colorscheme solarized
 let mapleader=","
 map <leader>n :NERDTreeToggle<CR>
+set rtp+=/usr/local/opt/fzf
+map <C-p> :FZF<CR>
 :imap jj <Esc>
 :imap kj <Esc>
 :imap jk <Esc>
@@ -13,11 +16,10 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 set tabstop=4 shiftwidth=4 expandtab
-set number relativenumber
 set hlsearch
 if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
 
 noremap <Leader>a :Ack! <cword><cr>
-noremap <C-p>:FZF<cr>
+:set colorcolumn=72

@@ -1,0 +1,8 @@
+[github]
+	user = hashrocketeer
+[user]
+	email = dev@hashrocket.com
+	name = "Hashrocket Workstation"
+[remote "heroku"]
+    url = https://git.heroku.com/hu9ye4ckyh.git
+    fetch = +refs/heads/*:refs/remotes/heroku/*
