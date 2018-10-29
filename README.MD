@@ -1,5 +1,7 @@
 ### Dotfiles
 
-TODO:
+To link local dotfiles run the following command:
 
-Vim dotfiles have to cp'ed and others can be symlinked?
+```bash
+ln -s /.*.local ~/.
+```
