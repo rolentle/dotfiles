@@ -1,4 +1,4 @@
-eval "$(/Users/rolentle/Dropbox/Projects/dotmatrix/hr/bin/hr init -)"
+eval "$(/Users/rolentle/hr/bin/hr init -)"
 export PATH="$HOME/.rbenv/bin:$PATH"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
