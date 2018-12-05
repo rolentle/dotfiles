@@ -1,7 +1,8 @@
-eval "$(/Users/rolentle/hr/bin/hr init -)"
+eval "$(/Users/rolentle/dotmatrix/hr/bin/hr init -)"
 export PATH="$HOME/.rbenv/bin:$PATH"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 alias tml='tmux ls'
 alias tmn='tmux new -s'
 alias tma='tmux attach -t'
+alias gundo='git reset --soft HEAD~1'
