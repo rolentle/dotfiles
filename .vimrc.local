@@ -11,6 +11,8 @@ map <C-p> :FZF<CR>
 :imap kj <Esc>
 :imap jk <Esc>
 :imap kk <Esc>
+nnoremap <leader>ev :vs $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
